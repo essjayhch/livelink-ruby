@@ -1,0 +1,11 @@
+name             'livelink-ruby'
+maintainer       'Livelink Infraops, Stuart Harladn'
+maintainer_email 'infra@livelinktechnology.net essjayhch@gmail.com'
+license          'MIT'
+description      'Installs/Configures brightbox maintained ruby'
+source_url       'https://github.com/essjayhch/livelink-ruby'
+issues_url       'https://github.com/essjayhch/livelink-ruby/issues'
+long_description IO.read('README.md')
+version          '0.1.0'
+chef_version     '> 12'
+supports         'ubuntu'
