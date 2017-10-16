@@ -6,6 +6,6 @@ description      'Installs/Configures brightbox maintained ruby'
 source_url       'https://github.com/essjayhch/livelink-ruby'
 issues_url       'https://github.com/essjayhch/livelink-ruby/issues'
 long_description IO.read('README.md')
-version          '0.1.0'
+version          '0.1.2'
 chef_version     '> 12'
 supports         'ubuntu'

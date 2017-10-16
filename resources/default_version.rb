@@ -16,8 +16,10 @@ load_current_value do
 end
 
 action :set do
-  package 'ruby-switch'
+  # Ensure this version is intalled
   livelink_ruby_version new_resource.version
+
+  package 'ruby-switch'
 
   ruby_block 'set version' do
     block do
